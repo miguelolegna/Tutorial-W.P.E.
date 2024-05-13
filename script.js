@@ -17,12 +17,12 @@ imagem2.addEventListener("click", function() {
     window.location.href = "Powerpoint.html";
 });
 
-//botao exel
+//botao excel
 // Seleciona a imagem pelo ID
-var imagem2 = document.getElementById("exelImage");
+var imagem2 = document.getElementById("excelImage");
 // Adiciona um evento de clique à segunda imagem
 imagem2.addEventListener("click", function() {
     // Redireciona para o destino desejado
-    window.location.href = "Exel.html";
+    window.location.href = "Excel.html";
 });
 
