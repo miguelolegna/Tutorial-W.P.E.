@@ -77,4 +77,5 @@ body {
   top: 80px; left: 50%; 
   transform: translateX(-50%);
   font-size: 45px;
+  color: rgba(255, 255, 255, 0.945);
 }

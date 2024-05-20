@@ -14,23 +14,25 @@
         margin-right: 120px;
         background-color: #185C37;
         color: rgba(255, 255, 255, 0.945);
+        font-family: "Times New Roman", Times, serif;
     }
 
     h1 {
         text-align: center; 
-        font-size: 35px;
+        font-size: 45px;
     }
 
     .infoText {
         display: none;
         position: absolute;
-        top: 330px;
+        top: 345px;
         left: 50%;
         transform: translateX(-50%);
         background-color: #21A366; /* Cor de fundo para garantir que o texto seja legível */
         padding: 10px; /* Espaçamento interno */
         border: 15px solid #10793F; /* Adiciona uma borda para destacar o texto */
         border-radius: 10px;
+        font-size: 20.5px;
   }
 
     .buttonContainer {
@@ -42,10 +44,12 @@
   }
 
     button {
-        background-color: #185C37;
-        color: rgba(255, 255, 255, 0.945);
+        background-color: rgba(255, 255, 255, 0.945);
+        color: rgba(0, 0, 0, 0.945);
         margin: 10px;
         font-size: 17px;
+        font-family: "Times New Roman", Times, serif;
+        border-radius: 5px;
     }
 
 </style>
@@ -69,58 +73,44 @@
         <img src="img/Exel/page.png" width="800px">
     </p>
 
+    <button class="showInfoButton">Folha</button>
+    <p class="infoText"> Esta é a folha em branco <br><br>
+      <img src="img/Exel/pag branca.png" width="950px"> <br><br><br>
+      <img src="img/Exel/celula.png" width="300px"> <br> Este contorno indica a célula que esta ativa e vai ser editada. <br> Em cima e á esquerda encontramos as coordenadas de cada célula. <br><br><br>
+      <img src="img/Exel/formulas.png" width="1000px"> <br> Nesta caixa é onde irá ser escrito o texto da célula selecionada ou uma formula para realizar uma operação ou estabelecer uma regra. <br><br><br>
+      <img src="img/Exel/folhas.png" width="300px"> <br> Neste canto encontramos as folhas criadas no livro. Podemos alterar o nome delas ou criar mais ao clicar no sinal "+".
+    </p>
+
     <button class="showInfoButton">Base</button>
-     <p class="infoText"> Este é menu Base <br><br> <img src="img/Exel/tabs-home.png" height="240px"><br> 
-      Semelhante ao Word, aqui podemos encontrar as funções de mudar o tipo de letra e o tamanho. <br>Também é possível colocar o texto em <b> Negrito (N)</b>, <em>Itálico (I)</em> e <u>Sublinhado</u><br>Além disso podemos definir as bordas de uma tabela<br><br><br>
-        <img src="img/Exel/alinhar.png" height="180px"><br>
-         Aqui temos as funções de Alinhar à esquerda, Centralizar, Alinhar à direita e Justificar. <br> Assim como alinhar em cima, em baixo e ao centro o texto de uma célula. <br> Também temos a função de unir células.
-        
+     <p class="infoText"> Este é menu Base <br><br> 
+      <img src="img/Exel/tabs-home.png" width="1300px"><br><br><br> 
+      <img src="img/Exel/base letra.png" height="180px"><br>
+       Semelhante ao Word, aqui podemos encontrar as funções de mudar o tipo de letra e o tamanho. <br>Também é possível colocar o texto em <b> Negrito (N)</b>, <em>Itálico (I)</em> e <u>Sublinhado</u><br>Além disso podemos definir as bordas de uma tabela<br><br><br>
+      <img src="img/Exel/alinhar.png" height="180px"><br>
+       Aqui temos as funções de Alinhar à esquerda, Centralizar, Alinhar à direita e Justificar. <br> Assim como alinhar em cima, em baixo e ao centro o texto de uma célula. <br> Também temos a função de unir células. <br><br><br>
+      <img src="img/Exel/nª.png" width="600px"> <br> 
+       Esta função permite expecificar o tipo de dado numérico trabalhado.
      </p>
 
     <button class="showInfoButton">Inserir</button>
      <p class="infoText">Este é o menu Inserir <br><br>
-        <img src="img/Powerpoint/insert2.png" height="150px"> <br><br><br>
-        <img src="img/Powerpoint/table.png" height="500px"><br>
-         Nesta aba podemos adicionar uma tabela do tamanho desejado ou importar uma tabela Exel. <br><br><br>
-        <img src="img/Powerpoint/insert img.png" width="800px"><br>
-         Nesta secção podemos adicionar imagens salvas no dispositivo. <br> Assim como adicionar formas, icons e gráficos. <br><br><br>
-        <img src="img/Powerpoint/insert text.jpg" width="800px"><br>
-         Nesta secção podemos adicionar caixa de texto, cabeçalho e rodapé, WordArt (estilos de letra), número de slide e equações e simbolos. <br><br><br>
-        <img src="img/Powerpoint/insert audio.jpg" width="800px"><br>
-         Aqui pode ser importado um vídeo ou um audio.
-
+        <img src="img/Exel/tabs-insert.png" width="1400px"> <br><br><br>
+        <img src="img/Exel/insert img.png" width="1000px"><br>
+         Aqui, semelhante ao word, podemos inserir imagens do dispositivo ou online. <br> Assim como adicionar formas, icons e gráficos. <br><br><br>
+        <img src="img/Exel/grafico.png" width="800px"><br>
+         Nesta parte podemos adicionar graficos á tabela para deixar mais dinamica e facil a visualização de dados. <br><br><br>
+        <img src="img/Exel/simbolos.png" width="800px"><br>
+         Aqui podemos adicionar caixas de texto, cabeçalho, rodapé, wordart, etc. <br> Assim como equações e simbolos.
      </p>
    
 
-   <button class="showInfoButton">Layout</button>
-     <p class="infoText">Este é o menu Layout (Estrutura)<br><br>
-        <img src="img/Powerpoint/templates.jpg" width="800px"> <br>Neste menu encontramos uma variedade de templates predefinidos para usar nas apresentações.<br> Também	é possivel procurar online por mais templates. <br>
-     </p>
+     <!-- <button class="showInfoButton">Layout</button>
+     <p class="infoText">Este é o menu Layout<br><br>
+        <img src="img/Exel/layout.png" height="180px"> <br> Neste menu encontramos funções relacionadas com as páginas. <br><br><br>
+        <img src="img/Exel/layout1.png" height="180px"> <br> Nesta secção podemos encontrar alguns templates para as tabelas ou criar um próprio podendo alterar a cor, o tipo de letra e efeitos.<br><br><br>
+        <img src="img/Exel/layout2.png" height="180px"> <br> Aqui encontramos as configurações da página onde podemos alterar as margens, a orientação, o tamanho e o espaçamento da folha excel. <br> aqui também podemos imprimir e mudar o fundo da folha 
+      </p> -->
    
-
-   <button class="showInfoButton">Transições</button>
-     <p class="infoText">Este é o menu de Transições <br><br>
-        <img src="img/Powerpoint/trans.png" height="450px">
-         As transições são efeitos de transição entre os slides, que ajudam a suavizar a progressão da apresentação. <br><br><br>
-        <img src="img\Powerpoint\tans2.png"width="700px"><br>
-         Neste menu podemos alterar a direção da transição (de baixo para cima, da esquerda para a direita, etc.). <br><br><br>
-        <img src="img/Powerpoint/trans sound.png" width="500px"><br>
-         Também é possivel adicionar sons e mudar a duração da transição. <br> Assim como definir um tempo antes da transição ser executada. <br><br><br>
-     </p>
-   
-
-     <button class="showInfoButton">Animações</button>
-     <p class="infoText">Este é o menu de Animações <br><br>
-        <img src="img/Powerpoint/animated2.png" height="150px"><br>
-        As animações são efeitos visuais que podem ser aplicados a elementos individuais nos slides, como texto, imagens e gráficos. <br><br><br>
-        <img src="img/Powerpoint/animated opt.png"width="700px"><br>
-         Este menu contem diversas animaçãoes diferentes para deixar a apresentação mais dinâmica. <br><br><br>
-        <img src="img/Powerpoint/animated pos.png" width="450px"><br>
-        Neste menu podemos alterar a direção da animação (de baixo para cima, da esquerda para a direita, etc.). <br><br><br>
-     </p>
-   </div>
-
-
   <script> 
     var buttons = document.querySelectorAll(".showInfoButton");
     var infoTexts = document.querySelectorAll(".infoText");
